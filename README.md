@@ -24,18 +24,18 @@ This project focuses on predicting stock prices using Machine Learning models li
 
 ## 🏗️ Project Structure
 ```
-├── app.py                         # Flask backend application
+├── app.py                             # Flask backend application
 ├── templates/
-│   ├── index.html                  # Main user input page
-│   └── result.html                 # Result visualization page
+│   ├── index.html                     # Main user input page
+│   └── result.html                    # Result visualization page
 ├── mymodels/
 │   ├── linear_regression_model.joblib
 │   └── lstm_model.h5
-├── stock_data/                     # Folder for storing downloaded stock CSVs
+├── stock_data/ TATAMOTORS_NS.csv      # Folder for storing downloaded stock CSVs
 ├── notebooks/
-│   └── stock_prediction_model.ipynb # Jupyter notebook for model training
+│   └── stock_prediction_model.ipynb   # Jupyter notebook for model training
 ├── README.md
-└── requirements.txt                # Python package dependencies
+└── requirements.txt                   # Python package dependencies
 ```
 
 ---
