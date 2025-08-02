@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock Prediction Results</h1>
+    
+    <h3>Closing Price vs Time</h3>
+    <img src="data:image/png;base64,{{ closing_price_plot_url }}" alt="Closing Price vs Time">
+
+    <h3>Closing Price with 100-Day & 200-Day MA</h3>
+    <img src="data:image/png;base64,{{ closing_price_100_200ma_plot_url }}" alt="Closing Price with 100-Day & 200-Day MA">
+
+    <h3>Actual vs Model Prediction</h3>
+    <img src="data:image/png;base64,{{ predicted_vs_actual_plot_url }}" alt="Actual vs Model Prediction">
+
+    <h3>Accuracy Metrics</h3>
+    <p>Mean Squared Error (MSE): {{ mse }}</p>
+    <p>Mean Absolute Error (MAE): {{ mae }}</p>
+    <p>R-squared (R2): {{ r2 }}</p>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="{{ url_for('index') }}">Go Back</a>
+    </div>
+</body>
+</html>
+
+
+
