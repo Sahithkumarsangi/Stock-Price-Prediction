@@ -11,7 +11,6 @@ This project focuses on predicting stock prices using Machine Learning models li
 - Visualizations for **Actual vs Predicted Prices**.
 - Additional plots like **Closing Price with Moving Averages (100-day, 200-day)**.
 - Performance metrics: **Mean Squared Error (MSE), Mean Absolute Error (MAE), R² Score**.
-- Downloadable prediction reports (optional).
 
 ---
 
@@ -19,7 +18,7 @@ This project focuses on predicting stock prices using Machine Learning models li
 - **Python** (Jupyter Notebook, Flask)
 - **Machine Learning Models**: Linear Regression, LSTM (TensorFlow/Keras)
 - **Libraries**: NumPy, Pandas, Matplotlib, Scikit-learn, yfinance
-- **Web Deployment**: GitHub Pages / Flask Local Server
+- **Web Deployment**: Flask Local Server
 
 ---
 
